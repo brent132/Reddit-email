@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+        *{ 
+            padding: 0;
+            border: 0;
+        }
+        body{
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 3%;
+        }
+
+        header{
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5em;
+        }
+        header .logo img{
+            vertical-align: middle;
+        }
+        .logo img{
+            max-width: 115px;
+        }
+        .user{
+            display: grid;
+            align-content: center;
+        }
+        .user a{    
+            color: rgb(185, 183, 178);
+            font-size: 12px;
+            text-decoration: none;
+        }
+        header .user img{
+            width: 20px;
+            vertical-align: middle;
+            margin: 0.5em;
+        }   
+
+        #text a{
+            text-decoration: none;
+        }
+        p{
+            margin: 3%;
+        }
+        .p3{
+            color: #FF4500;
+        }
+        ul li::before{
+            content: "\2022";
+            color: #FF4500;
+            padding: .8em;
+            margin-left: -2em;
+        }
+        #text ul {
+            margin: 3%;
+            list-style-type: none;
+        }
+
+        #banner{
+            background-color: rgb(241, 245, 246);
+        }
+        #banner img{
+            width: 100%;
+        }
+        .download-button{
+            display: flex;
+            place-content: center;
+            padding: 1em;
+        }
+        .download-button img{
+            max-width: 150px;
+            margin: 1em;
+        }
+        #banner p{
+            text-align: center;
+            padding: 1em;
+        }
+        .p4{
+            color: rgb(148, 150, 151);
+        }
+        .p5{
+            color: #FF4500;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+
+        <header>
+            <div class="logo">
+                <a href="http://www.reddit.com" target="blank">
+                <img src="PNG/logo.png" alt=""></a>
+            </div>
+            <div class="user">
+                <a href="http://www.reddit.com" target="blank">
+                <img src="PNG/user-image.png" alt="">u/user_name</a>
+            </div>
+        </header>
+
+
+        <div id="text">
+            <div class="p1">
+                <p>
+                    We're writing to let you know that we've updated Reddit's 
+                    <a href="" target="blank">UserAgreement, Privacy Policy</a> , and
+                    <a href="" target="blank"> Premium and Virtual GoodsAgreement</a>. 
+                    These updated terms will take effect on September 12, 2021, and they
+                    will apply to you if you use Reddit after September 12.<br><br>
+                    We encourage you to review the updated terms in full. Here are some of the highlights:
+                </p>
+            </div>
+
+            <div class="ul">
+                <ul>
+                    <li>We made small updates throughout our terms to make them clearer and more specific.</li><br>
+                    <li>We updated some information based on where you use our services. Now there is a separate User
+                         Agreement for users located in the European Economic Area, United Kingdom, or Switzerland.</li><br>
+                    <li>We added terms to our Reddit Premium and Virtual Goods Agreement related to services obtained 
+                        through third parties, cancellation, and for users in the EEA, UK, or Switzerland, withdrawal.</li><br>
+                    <li>We removed reference to Programmatic Advertising in our Privacy Policy as we no longer support it on our site.</li><br>
+                    <li>We clarified the transfer mechanism we rely upon for the transfer of personal data of EEA, UK, and Switzerland users.</li><br>
+                </ul>
+            </div>
+
+            <div class="p2">
+            <p>
+                If you have questions, please visit <a href="" target="blank">Reddit Help.</a>
+            </p>
+            <div class="p3">
+            <p>
+                - Reddit
+            </p>
+            </div>
+            </div>
+            
+        </div>
+
+    <div id="banner">
+        <img src="PNG/Banner.png" alt="">
+        <div class="download-button">
+            <a href=""><img src="PNG/apple.png" alt=""></a>
+            <a href=""><img src="PNG/google-play.png" alt=""></a>
+        </div>
+        <div class="p4">
+        <p>
+            You are receiving this email because a Reddit account, user-name, is registered to this email address.
+        </p>
+        </div>
+        <div class="p5">
+        <p>
+             548 Market St., #16093, San Francisco, CA 94104–5401
+        </p>
+       </div>
+
+    </div>
+    </div>
+</body>
+</html>
